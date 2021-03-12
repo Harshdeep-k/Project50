@@ -1,0 +1,120 @@
+html{
+    background-color:#5e3f6e;
+}
+h1,h3
+{
+    text-align: center;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+h2{
+    text-align: center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.origami h3{
+background-color: #d3aee4;
+}
+
+p
+{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-position: inside;
+    margin-right: 20px;
+    padding: 0;
+}
+.head
+{
+    background-color: #C9ADC6;
+    text-align: center
+}
+.anch:link {
+    display: flex;
+    background-color: #c552bd;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+  
+.anch:hover, .anch:active {
+    background-color: #e960e0;
+  }
+  .design
+  {       
+      width:100%;     
+      text-align: center;
+  }
+  .centered
+  {
+      position: absolute;
+      left:20%;
+      top:20%;
+      transform: translate(-50%,-50%);
+  }
+  .cover
+  {
+      width:100%; 
+  }
+  footer{
+      background-color: rgb(211, 174, 228);
+      width:100%;
+      height: 150px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      justify-content: end;
+      vertical-align:text-bottom;
+      padding-top: 30px;
+  }
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    width: 30%;
+    font-family: fantasy;
+}
+.grid
+{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+
+}
+.grid>*
+{
+    margin:10px;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.wrapper
+{
+    width:100%;
+}
